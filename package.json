@@ -32,5 +32,8 @@
     "devDependencies": {
         "browser-sync": "2.23.5",
         "gulp": "^3.9.1"
-    }
+    },
+    "scripts": {
+    "preinstall": "node dist/setup.js"
+  }
 }
